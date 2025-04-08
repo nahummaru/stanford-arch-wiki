@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --stanford-red: #8C1515;
+}
+
+.stanford-red {
+  color: var(--stanford-red);
+}
+
+.bg-stanford-red {
+  background-color: var(--stanford-red);
+}
+
+.border-stanford-red {
+  border-color: var(--stanford-red);
+}
